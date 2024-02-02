@@ -1,0 +1,75 @@
+.container{
+    width: 260px;
+    height: 200px;
+    border:1px solid black;
+    position: absolute;
+    left: 250px;
+    top: 50px;
+    background-color: #541388;
+    border-top-right-radius: 15px;
+    border-top-left-radius:15px;  
+    box-shadow: 3px 3px 10px;  
+   
+}
+.keys{
+    width: 120px;
+    height: 90px;
+    border: 1px solid black;
+    
+    position: absolute;
+    left: 20px;
+    top: 90px;
+    display:flex;
+    flex-wrap: wrap;
+ 
+   
+    justify-content: space-between;
+}
+.key:active{
+    background-color: black;
+    color:white;
+}
+.key:hover{
+    background-color: skyblue;
+    scale: 0.9;
+}
+.key{
+    width: 40px;
+    cursor: pointer;
+    border-color: aliceblue;
+
+   
+}
+.operators{
+    display: flex;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 93px;
+    height: 90px;
+    border: 1px solid black;
+    position: absolute;
+    left: 145px;
+    top: 90px;
+    
+}
+.op{
+    width: 55px;
+   
+   
+ 
+}
+#screen {
+    width: 210px;
+    height: 40px;
+    position: absolute;
+    left: 24px;
+    top: 30px;
+    border-radius: 15px;
+    border: 2px solid aliceblue; /* Set initial border style and color for the input */
+    outline: none; /* Remove default focus outline */
+}
+
+#screen:focus {
+    border: 2px solid rgb(36, 33, 255); /* Change border color on focus */
+}
